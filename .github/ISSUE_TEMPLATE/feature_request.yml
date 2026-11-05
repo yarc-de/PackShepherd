@@ -1,0 +1,19 @@
+name: Idea
+description: Suggest a feature or improvement
+labels: [idea]
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Mac
+        - All
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like, and why?
+    validations:
+      required: true
