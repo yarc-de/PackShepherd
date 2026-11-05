@@ -18,7 +18,8 @@ This repository is the home of the project: documentation, downloads, bug report
 6. [Screenshots](#screenshots)
 7. [Safety and known limits](#safety-and-known-limits)
 8. [Feedback](#feedback)
-9. [License](#license)
+9. [Privacy](#privacy)
+10. [License](#license)
 
 ## Why PackShepherd
 
@@ -90,6 +91,10 @@ The app only displays values until you activate change mode.
 ## Feedback
 
 Found a bug or have an idea? Open an [issue](../../issues/new/choose). Please include your platform, the app version and the firmware shown in the app.
+
+## Privacy
+
+PackShepherd collects no data and sends nothing over the internet. See the [privacy policy](PRIVACY.md).
 
 ## License
 
