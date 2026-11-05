@@ -27,7 +27,9 @@ Links in the app open in your browser, and that website's own privacy policy app
 
 ## Contact
 
-Please use [GitHub Issues](https://github.com/yarc-de/PackShepherd/issues) for questions. Issues are public, so please don't post personal data there.
+Please use GitHub Issues for questions: https://github.com/yarc-de/PackShepherd/issues
+
+Issues are public, so please don't post personal data there.
 
 ---
 
@@ -58,4 +60,6 @@ Links in der App öffnen sich im Browser. Dort gilt die Datenschutzerklärung de
 
 ## Kontakt
 
-Bitte nutze für Fragen die [GitHub Issues](https://github.com/yarc-de/PackShepherd/issues). Issues sind öffentlich, schreibe dort also bitte keine personenbezogenen Daten hinein.
+Bitte nutze für Fragen die GitHub Issues: https://github.com/yarc-de/PackShepherd/issues
+
+Issues sind öffentlich, schreibe dort also bitte keine personenbezogenen Daten hinein.
