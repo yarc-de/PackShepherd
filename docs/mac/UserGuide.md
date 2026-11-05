@@ -98,6 +98,10 @@ Open PackShepherd › Settings (⌘,) for appearance, language, the sign of curr
 defaults delete de.yarc.packshepherd editPassword
 ```
 
+## Try the demo
+
+You can try the app without a battery. Turn on **Demo mode** in the settings, or choose **Try the demo** while no pack is listed. The app then disconnects from your packs and shows two sample packs, with a banner at the top. It doesn't connect to a BMS and writes nothing. Choose **End** in the banner to go back to your packs.
+
 ## Troubleshooting
 
 | Problem | Try this |

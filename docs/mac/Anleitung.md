@@ -98,6 +98,10 @@ Unter PackShepherd › Einstellungen (⌘,) findest du Erscheinungsbild, Sprache
 defaults delete de.yarc.packshepherd editPassword
 ```
 
+## Demo ausprobieren
+
+Du kannst die App ohne Batterie ausprobieren. Schalte dazu in den Einstellungen den **Demo-Modus** ein, oder wähle **Demo ansehen**, solange kein Pack in der Liste steht. Die App trennt dann deine Packs und zeigt zwei Beispiel-Packs mit einem Hinweis oben im Fenster. Sie verbindet sich dabei mit keinem BMS und schreibt nichts. Mit **Beenden** im Hinweis kehrst du zu deinen Packs zurück.
+
 ## Wenn etwas nicht klappt
 
 | Problem | Das hilft |

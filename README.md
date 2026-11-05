@@ -41,6 +41,7 @@ It's also a learning project. I've worked as a software developer and architect 
 - Compare two or more packs and apply chosen values to them
 - See warnings and protection messages from the BMS by name
 - Optional password before change mode
+- Demo mode to try the app without a battery
 - German and English
 
 ## Supported devices
