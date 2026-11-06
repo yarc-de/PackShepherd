@@ -65,7 +65,7 @@ The BMS reports alarms as bits. PackShepherd shows them by name, with their posi
 
 The app only displays values until you activate change mode.
 
-1. Open **Parameters** or **Switches** and choose **Change**. If you set a password, the app asks for it.
+1. Open **Parameters** or **Switches** and choose **Change**. The first time, you confirm a safety notice. If you set a password, the app asks for it.
 2. Edit the values. Changed fields are marked.
 3. Choose **Review changes**. The app lists old and new values, and shows values the BMS would reject. Turning off a protection function needs a separate confirmation.
 4. Choose **Write to BMS**. The app reads the current values, saves a backup, writes, and reads back to compare.

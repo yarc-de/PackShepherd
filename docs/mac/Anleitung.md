@@ -65,7 +65,7 @@ Das BMS meldet Alarme als Bits. PackShepherd zeigt sie mit Namen und Position. *
 
 Ohne Änderungsmodus zeigt die App nur an.
 
-1. **Parameter** oder **Schalter** öffnen und **Ändern** wählen. Hast du ein Passwort gesetzt, fragt die App danach.
+1. **Parameter** oder **Schalter** öffnen und **Ändern** wählen. Beim ersten Mal bestätigst du einen Sicherheitshinweis. Hast du ein Passwort gesetzt, fragt die App danach.
 2. Werte bearbeiten. Geänderte Felder sind markiert.
 3. **Änderungen prüfen** wählen. Die App zeigt alte und neue Werte sowie Werte, die das BMS ablehnen würde. Das Abschalten einer Schutzfunktion braucht eine eigene Bestätigung.
 4. **Auf BMS schreiben** wählen. Die App liest die aktuellen Werte, legt ein Backup an, schreibt und vergleicht beim Zurücklesen.
