@@ -1,12 +1,20 @@
-# PackShepherd
+<p align="center">
+  <img src="docs/images/logo.png" width="160" alt="PackShepherd logo: a shepherd dog above three batteries">
+</p>
 
-Monitor and configure **Seplos BMS 10E** battery packs over Bluetooth.
+<h1 align="center">PackShepherd</h1>
+
+<p align="center"><a href="#deutsche-version">Deutsche Version weiter unten</a></p>
+
+Monitor and configure **Seplos BMS 10E** battery packs over Bluetooth, on **Android, iPhone and Mac**. The iPhone app isn't available for download yet. A Windows version is planned.
 
 This repository is the home of the project: documentation, downloads, bug reports and ideas. The app is free to use. Its source code isn't public.
 
 > **Warning:** PackShepherd can change the protection settings of a live battery. Wrong settings can damage the battery or become dangerous. Use it at your own risk.
 
-![Overview of two packs](docs/images/overview.png)
+| Android | iPhone | Mac |
+|---|---|---|
+| ![Overview on Android](docs/images/android/overview.png) | ![Overview on iPhone](docs/images/ios/overview.png) | ![Overview on Mac](docs/images/overview.png) |
 
 ## Contents
 
@@ -20,6 +28,7 @@ This repository is the home of the project: documentation, downloads, bug report
 8. [Feedback](#feedback)
 9. [Privacy](#privacy)
 10. [License](#license)
+11. [Deutsche Version](#deutsche-version)
 
 ## Why PackShepherd
 
@@ -29,7 +38,7 @@ I built PackShepherd for three practical reasons:
 - I couldn't find an iOS app that satisfied me.
 - Keeping parameters and switches in sync across several packs was tedious.
 
-It's also a learning project. I've worked as a software developer and architect for more than 30 years, mostly on enterprise software, but had no experience with Apple platforms or the iPhone. PackShepherd was my way to learn vibe coding and to test what Claude can do. Claude wrote much of the code.
+It's also a learning project. I've worked as a software developer and architect for more than 30 years, mostly on enterprise software, but had no experience developing apps for iOS and Android. PackShepherd was my way to learn vibe coding and to test what Claude can do. Claude wrote much of the code.
 
 ## Features
 
@@ -62,6 +71,7 @@ It's also a learning project. I've worked as a software developer and architect 
 | Mac | [`.dmg` in Releases](../../releases/tag/mac-0.1.1) | [English](docs/mac/UserGuide.md) · [Deutsch](docs/mac/Anleitung.md) |
 | Android | [`.apk` in Releases](../../releases/tag/android-0.2.2) | [English](docs/android/UserGuide.md) · [Deutsch](docs/android/Anleitung.md) |
 | iPhone | Not available yet | [English](docs/ios/UserGuide.md) · [Deutsch](docs/ios/Anleitung.md) |
+| Windows | Planned | |
 
 Google Play isn't available yet either. Each release lists a SHA-256 checksum, so you can check your download. Changes are listed in the [changelog](CHANGELOG.md).
 
@@ -129,3 +139,89 @@ PackShepherd collects no data and sends nothing over the internet. See the [priv
 PackShepherd is free to use, see [LICENSE](LICENSE). All rights reserved. It uses [SeplosKit](https://github.com/yarc-de/SeplosKit) under the MIT license.
 
 PackShepherd is not a Seplos product and isn't affiliated with Seplos.
+
+---
+
+# Deutsche Version
+
+Überwache und konfiguriere **Seplos-BMS-10E**-Batteriepacks per Bluetooth, auf **Android, iPhone und Mac**. Die iPhone-App lässt sich noch nicht herunterladen. Eine Windows-Version ist geplant.
+
+Dieses Repository ist das Zuhause des Projekts: Dokumentation, Downloads, Fehlermeldungen und Ideen. Die App ist kostenlos. Ihr Quellcode ist nicht öffentlich.
+
+> **Warnung:** PackShepherd kann die Schutzeinstellungen einer laufenden Batterie ändern. Falsche Einstellungen können den Akku beschädigen oder gefährlich werden. Die Nutzung erfolgt auf eigene Verantwortung.
+
+## Warum PackShepherd
+
+Ich habe PackShepherd aus drei praktischen Gründen gebaut:
+
+- Die Monitor-Software des Herstellers ist umständlich zu bedienen, besonders bei Batterien aus mehreren Packs.
+- Ich habe keine iOS-App gefunden, die mich zufriedengestellt hat.
+- Parameter und Schalter über mehrere Packs hinweg abzugleichen, war mühsam.
+
+Es ist auch ein Lernprojekt. Ich arbeite seit mehr als 30 Jahren als Softwareentwickler und Architekt, vor allem im Bereich Enterprise-Software, hatte aber keine Erfahrung in der Entwicklung von Apps für iOS und Android. Mit PackShepherd wollte ich Vibe Coding lernen und testen, was Claude kann. Claude hat einen großen Teil des Codes geschrieben.
+
+## Funktionen
+
+- Alle Seplos-BMS in der Nähe automatisch finden und jedem Pack einen eigenen Namen geben
+- SOC, Spannung, Strom, Leistung, Temperaturen, Zyklen und SOH auf einen Blick sehen
+- Jede Zellspannung sehen, die höchste und die niedrigste Zelle sind markiert
+- Alle Parameter und Schalter lesen und ausblenden, was du nicht brauchst
+- Sie drucken oder als PDF sichern (Mac und iPhone)
+- Einstellungen im geschützten Änderungsmodus ändern: Prüfung gegen die Regeln der Firmware, vorher ein Backup, danach Zurücklesen
+- Zwei oder mehr Packs vergleichen und gewählte Werte übernehmen
+- Warnungen und Schutzmeldungen des BMS mit Namen sehen
+- Optionales Passwort vor dem Änderungsmodus
+- Demo-Modus zum Ausprobieren ohne Batterie
+- Deutsch und Englisch
+
+## Unterstützte Geräte
+
+| | |
+|---|---|
+| **BMS** | Seplos BMS 10E mit Bluetooth-Modul (angezeigt als `BP00`, `BP01` und so weiter) |
+| **Getestet mit** | Firmware 16.6.1 an zwei Packs. Andere Versionen und Modelle können sich anders verhalten |
+| **Mac** | macOS 14 oder neuer. Getestet auf Apple Silicon. Eine Intel-Version ist enthalten, aber noch nicht getestet |
+| **Android** | Android 12 oder neuer mit Bluetooth. Getestet auf einem Telefon |
+| **iPhone** | iOS 17 oder neuer. Getestet auf einem iPhone |
+
+## Herunterladen
+
+| Plattform | Bezugsquelle | Anleitung |
+|---|---|---|
+| Mac | [`.dmg` unter Releases](../../releases/tag/mac-0.1.1) | [Deutsch](docs/mac/Anleitung.md) · [English](docs/mac/UserGuide.md) |
+| Android | [`.apk` unter Releases](../../releases/tag/android-0.2.2) | [Deutsch](docs/android/Anleitung.md) · [English](docs/android/UserGuide.md) |
+| iPhone | Noch nicht verfügbar | [Deutsch](docs/ios/Anleitung.md) · [English](docs/ios/UserGuide.md) |
+| Windows | Geplant | |
+
+Auch bei Google Play ist die App noch nicht verfügbar. Jeder Release nennt eine SHA-256-Prüfsumme, mit der du deinen Download prüfen kannst. Änderungen stehen im [Changelog](CHANGELOG.md).
+
+## Erste Schritte
+
+1. Installiere die App wie in der Anleitung beschrieben. macOS warnt beim ersten Start, weil die App noch nicht notarisiert ist. Android fragt, ob du die Installation erlaubst.
+2. Schließe andere Apps, die mit dem BMS verbunden sind, zum Beispiel die App des Herstellers.
+3. Starte PackShepherd und erlaube Bluetooth. Die App findet deine Packs von selbst. Keine Batterie zur Hand? Probiere den Demo-Modus aus.
+
+Ohne Änderungsmodus zeigt die App nur an.
+
+Bilder aller Seiten findest du weiter oben unter [Screenshots](#screenshots).
+
+## Sicherheit und bekannte Grenzen
+
+- **Nur zwei Warnungen sind am Gerät bestätigt:** Umgebungstemperatur hoch und Entladetemperatur hoch. Die übrigen Alarmnamen stammen aus der Protokolldefinition eines anderen Werkzeugs. Prüfe sie im Zweifel mit der Software des Herstellers.
+- **„Keine Alarmbits gesetzt“ heißt nicht, dass alles in Ordnung ist.** Das BMS meldet eine Warnung nur, wenn ihr Schalter eingeschaltet ist, und manche Warnungen hängen von der Stromrichtung ab.
+- Live-Werte erscheinen nur, solange die App läuft. Einen Verlauf gibt es noch nicht.
+- Die App kann Backups anlegen, aber noch nicht wiederherstellen.
+
+## Rückmeldungen
+
+Einen Fehler gefunden oder eine Idee? Lege ein [Issue](../../issues/new/choose) an. Nenne bitte deine Plattform, die App-Version und die Firmware aus der App. Bitte teste vorsichtig: Das sind frühe Versionen.
+
+## Datenschutz
+
+PackShepherd erhebt keine Daten und sendet nichts über das Internet. Siehe die [Datenschutzerklärung](PRIVACY.md).
+
+## Lizenz
+
+PackShepherd ist kostenlos nutzbar, siehe [LICENSE](LICENSE) (auf Englisch). Alle Rechte vorbehalten. Die App nutzt [SeplosKit](https://github.com/yarc-de/SeplosKit) unter der MIT-Lizenz.
+
+PackShepherd ist kein Produkt von Seplos und nicht mit Seplos verbunden.
