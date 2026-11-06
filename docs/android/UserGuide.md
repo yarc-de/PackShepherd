@@ -48,6 +48,10 @@ If the connection is lost, every page says so and shows when the values were las
 
 ![Cells](../images/android/cells.png)
 
+![Parameters](../images/android/parameters.png)
+
+![Switches](../images/android/switches.png)
+
 ## Alarms
 
 The BMS reports alarms as bits. PackShepherd shows them by name, with their position. **Only two warnings are verified on a device so far:** ambient temperature high and discharge temperature high. If in doubt about other messages, check with the manufacturer's software.

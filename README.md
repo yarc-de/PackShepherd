@@ -53,6 +53,7 @@ It's also a learning project. I've worked as a software developer and architect 
 | **Tested with** | Firmware 16.6.1 on two packs. Other versions and models may behave differently |
 | **Mac** | macOS 14 or later. Tested on Apple silicon. An Intel version is included, but it hasn't been tested yet |
 | **Android** | Android 12 or later with Bluetooth. Tested on one phone |
+| **iPhone** | iOS 17 or later. Tested on one iPhone |
 
 ## Download
 
@@ -60,7 +61,7 @@ It's also a learning project. I've worked as a software developer and architect 
 |---|---|---|
 | Mac | [`.dmg` in Releases](../../releases/tag/mac-0.1.1) | [English](docs/mac/UserGuide.md) · [Deutsch](docs/mac/Anleitung.md) |
 | Android | [`.apk` in Releases](../../releases/tag/android-0.2.2) | [English](docs/android/UserGuide.md) · [Deutsch](docs/android/Anleitung.md) |
-| iPhone | Not available yet | |
+| iPhone | Not available yet | [English](docs/ios/UserGuide.md) · [Deutsch](docs/ios/Anleitung.md) |
 
 Google Play isn't available yet either. Each release lists a SHA-256 checksum, so you can check your download. Changes are listed in the [changelog](CHANGELOG.md).
 
@@ -90,9 +91,23 @@ The app only displays values until you activate change mode.
 
 ### Android
 
-| Pack list | Dashboard | Cells | Sync |
-|---|---|---|---|
-| ![Pack list](docs/images/android/list.png) | ![Dashboard](docs/images/android/dashboard.png) | ![Cells](docs/images/android/cells.png) | ![Sync](docs/images/android/sync.png) |
+| Pack list | Dashboard | Cells |
+|---|---|---|
+| ![Pack list](docs/images/android/list.png) | ![Dashboard](docs/images/android/dashboard.png) | ![Cells](docs/images/android/cells.png) |
+
+| Parameters | Switches | Sync |
+|---|---|---|
+| ![Parameters](docs/images/android/parameters.png) | ![Switches](docs/images/android/switches.png) | ![Sync](docs/images/android/sync.png) |
+
+### iPhone
+
+| Pack list | Dashboard | Cells |
+|---|---|---|
+| ![Pack list](docs/images/ios/list.png) | ![Dashboard](docs/images/ios/dashboard.png) | ![Cells](docs/images/ios/cells.png) |
+
+| Parameters | Switches | Sync |
+|---|---|---|
+| ![Parameters](docs/images/ios/parameters.png) | ![Switches](docs/images/ios/switches.png) | ![Sync](docs/images/ios/sync.png) |
 
 ## Safety and known limits
 

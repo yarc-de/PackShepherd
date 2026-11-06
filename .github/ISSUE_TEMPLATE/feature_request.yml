@@ -9,6 +9,7 @@ body:
       options:
         - Mac
         - Android
+        - iPhone
         - All
     validations:
       required: true

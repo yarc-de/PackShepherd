@@ -48,6 +48,10 @@ Bricht die Verbindung ab, steht das auf jeder Seite, zusammen mit der Uhrzeit de
 
 ![Zellen](../images/android/cells.png)
 
+![Parameter](../images/android/parameters.png)
+
+![Schalter](../images/android/switches.png)
+
 ## Alarme
 
 Das BMS meldet Alarme als Bits. PackShepherd zeigt sie mit Namen und Position. **Bisher sind nur zwei Warnungen am Gerät bestätigt:** Umgebungstemperatur hoch und Entladetemperatur hoch. Prüfe andere Meldungen im Zweifel mit der Software des Herstellers.
