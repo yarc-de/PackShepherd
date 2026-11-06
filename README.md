@@ -32,9 +32,10 @@ This repository is the home of the project: documentation, downloads, bug report
 
 ## Why PackShepherd
 
-I built PackShepherd for three practical reasons:
+I built PackShepherd for four practical reasons:
 
 - The manufacturer's monitor software is cumbersome to use, especially with batteries made of several packs.
+- Seplos doesn't offer a native Mac version.
 - I couldn't find an iOS app that satisfied me.
 - Keeping parameters and switches in sync across several packs was tedious.
 
@@ -152,9 +153,10 @@ Dieses Repository ist das Zuhause des Projekts: Dokumentation, Downloads, Fehler
 
 ## Warum PackShepherd
 
-Ich habe PackShepherd aus drei praktischen Gründen gebaut:
+Ich habe PackShepherd aus vier praktischen Gründen gebaut:
 
 - Die Monitor-Software des Herstellers ist umständlich zu bedienen, besonders bei Batterien aus mehreren Packs.
+- Von Seplos gibt es keine native Mac-Version.
 - Ich habe keine iOS-App gefunden, die mich zufriedengestellt hat.
 - Parameter und Schalter über mehrere Packs hinweg abzugleichen, war mühsam.
 
