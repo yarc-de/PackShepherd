@@ -36,7 +36,8 @@ It's also a learning project. I've worked as a software developer and architect 
 - Find all Seplos BMS units nearby automatically and give each pack its own name
 - See SOC, voltage, current, power, temperatures, cycles and SOH at a glance
 - See every cell voltage, with the highest and lowest cell marked
-- Read all parameters and switches, hide the ones you don't need, print them or save them as a PDF
+- Read all parameters and switches and hide the ones you don't need
+- Print them or save them as a PDF (Mac and iPhone)
 - Change settings in a protected change mode: checks against the firmware's rules, a backup first, and a read-back afterwards
 - Compare two or more packs and apply chosen values to them
 - See warnings and protection messages from the BMS by name
@@ -51,24 +52,29 @@ It's also a learning project. I've worked as a software developer and architect 
 | **BMS** | Seplos BMS 10E with its Bluetooth module (shown as `BP00`, `BP01` and so on) |
 | **Tested with** | Firmware 16.6.1 on two packs. Other versions and models may behave differently |
 | **Mac** | macOS 14 or later. Tested on Apple silicon. An Intel version is included, but it hasn't been tested yet |
+| **Android** | Android 12 or later with Bluetooth. Tested on one phone |
 
 ## Download
 
 | Platform | Get it | Guide |
 |---|---|---|
-| Mac | [`.dmg` in Releases](../../releases) | [English](docs/mac/UserGuide.md) · [Deutsch](docs/mac/Anleitung.md) |
+| Mac | [`.dmg` in Releases](../../releases/tag/mac-0.1.1) | [English](docs/mac/UserGuide.md) · [Deutsch](docs/mac/Anleitung.md) |
+| Android | [`.apk` in Releases](../../releases/tag/android-0.2.2) | [English](docs/android/UserGuide.md) · [Deutsch](docs/android/Anleitung.md) |
+| iPhone | Not available yet | |
 
-Each release lists a SHA-256 checksum, so you can check your download. Changes are listed in the [changelog](CHANGELOG.md).
+Google Play isn't available yet either. Each release lists a SHA-256 checksum, so you can check your download. Changes are listed in the [changelog](CHANGELOG.md).
 
 ## First steps
 
-1. Install the app as described in the guide. macOS warns on first start, because the app isn't notarized yet.
+1. Install the app as described in the guide. macOS warns on first start, because the app isn't notarized yet. Android asks you to allow the installation.
 2. Close other apps connected to your BMS, for example the manufacturer's app.
-3. Start PackShepherd and allow Bluetooth. It finds your packs by itself.
+3. Start PackShepherd and allow Bluetooth. It finds your packs by itself. No battery at hand? Try the demo mode.
 
 The app only displays values until you activate change mode.
 
 ## Screenshots
+
+### Mac
 
 | Dashboard | Cells |
 |---|---|
@@ -82,6 +88,12 @@ The app only displays values until you activate change mode.
 
 ![Sync](docs/images/sync.png)
 
+### Android
+
+| Pack list | Dashboard | Cells | Sync |
+|---|---|---|---|
+| ![Pack list](docs/images/android/list.png) | ![Dashboard](docs/images/android/dashboard.png) | ![Cells](docs/images/android/cells.png) | ![Sync](docs/images/android/sync.png) |
+
 ## Safety and known limits
 
 - **Only two warnings are verified on a device:** ambient temperature high and discharge temperature high. The other alarm names come from the protocol definition of another tool. If in doubt, check with the manufacturer's software.
@@ -91,7 +103,7 @@ The app only displays values until you activate change mode.
 
 ## Feedback
 
-Found a bug or have an idea? Open an [issue](../../issues/new/choose). Please include your platform, the app version and the firmware shown in the app.
+Found a bug or have an idea? Open an [issue](../../issues/new/choose). Please include your platform, the app version and the firmware shown in the app. Please test with care: these are early versions.
 
 ## Privacy
 

@@ -8,6 +8,7 @@ body:
       label: Platform
       options:
         - Mac
+        - Android
         - All
     validations:
       required: true
