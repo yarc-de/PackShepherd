@@ -39,8 +39,7 @@ The ring color shows only the state of charge. Alarms appear separately as text.
 
 ![Dashboard](../images/dashboard.png)
 
-- **Dashboard:** the gauge, messages from the BMS, and key values.
-- **Cells:** one column per cell, with the highest and lowest cell marked.
+- **Overview:** messages from the BMS, a small gauge and the key values, including model, firmware and the lowest and highest cell. Below them, one column per cell, with the highest and lowest cell marked.
 - **Parameters** and **Switches:** all values from the BMS. Click the eye to hide a row.
 
 ![Cells](../images/cells.png)

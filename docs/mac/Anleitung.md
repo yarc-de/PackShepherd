@@ -39,8 +39,7 @@ Die Ringfarbe zeigt nur den Ladezustand. Alarme erscheinen getrennt als Text.
 
 ![Dashboard](../images/dashboard.png)
 
-- **Dashboard:** Gauge, Meldungen des BMS und wichtige Werte.
-- **Zellen:** je Zelle eine Säule, höchste und niedrigste Zelle sind markiert.
+- **Übersicht:** Meldungen des BMS, ein kleines Gauge und die wichtigen Werte, darunter Modell, Firmware sowie niedrigste und höchste Zelle. Darunter je Zelle eine Säule, höchste und niedrigste Zelle sind markiert.
 - **Parameter** und **Schalter:** alle Werte aus dem BMS. Über das Auge blendest du eine Zeile aus.
 
 ![Zellen](../images/cells.png)

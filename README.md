@@ -69,7 +69,7 @@ It's also a learning project. I've worked as a software developer and architect 
 
 | Platform | Get it | Guide |
 |---|---|---|
-| Mac | [`.dmg` in Releases](../../releases/tag/mac-0.1.1) | [English](docs/mac/UserGuide.md) · [Deutsch](docs/mac/Anleitung.md) |
+| Mac | [`.dmg` in Releases](../../releases/tag/mac-0.1.2) | [English](docs/mac/UserGuide.md) · [Deutsch](docs/mac/Anleitung.md) |
 | Android | [`.apk` in Releases](../../releases/tag/android-0.2.2) | [English](docs/android/UserGuide.md) · [Deutsch](docs/android/Anleitung.md) |
 | iPhone | Not available yet | [English](docs/ios/UserGuide.md) · [Deutsch](docs/ios/Anleitung.md) |
 | Windows | Planned | |
@@ -190,7 +190,7 @@ Es ist auch ein Lernprojekt. Ich arbeite seit mehr als 30 Jahren als Softwareent
 
 | Plattform | Bezugsquelle | Anleitung |
 |---|---|---|
-| Mac | [`.dmg` unter Releases](../../releases/tag/mac-0.1.1) | [Deutsch](docs/mac/Anleitung.md) · [English](docs/mac/UserGuide.md) |
+| Mac | [`.dmg` unter Releases](../../releases/tag/mac-0.1.2) | [Deutsch](docs/mac/Anleitung.md) · [English](docs/mac/UserGuide.md) |
 | Android | [`.apk` unter Releases](../../releases/tag/android-0.2.2) | [Deutsch](docs/android/Anleitung.md) · [English](docs/android/UserGuide.md) |
 | iPhone | Noch nicht verfügbar | [Deutsch](docs/ios/Anleitung.md) · [English](docs/ios/UserGuide.md) |
 | Windows | Geplant | |
