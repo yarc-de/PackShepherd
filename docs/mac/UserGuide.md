@@ -67,11 +67,22 @@ The app only displays values until you activate change mode.
 1. Open **Parameters** or **Switches** and choose **Change**. The first time, you confirm a safety notice. If you set a password, the app asks for it.
 2. Edit the values. Changed fields are marked.
 3. Choose **Review changes**. The app lists old and new values, and shows values the BMS would reject. Turning off a protection function needs a separate confirmation.
-4. Choose **Write to BMS**. The app reads the current values, saves a backup, writes, and reads back to compare.
+4. Back up first if you want to be able to return: the review shows the last backup and offers **Back Up Now**.
+5. Choose **Write to BMS**. The app reads the current values, writes, and reads back to compare.
 
 Some settings are locked because changing them could cut the connection or trip hardware: cell count, SOC set value, secondary trip, LCD, Bluetooth, address coding and external polling.
 
-Backups are JSON files. Open their folder with Battery › Show Backups in Finder. The app can't restore them yet.
+## Backups
+
+The app makes backups only when you choose to. Open **Backups …** with the clock button on a pack page or with Battery › Backups … (⇧⌘B).
+
+- **Back Up Now** saves all parameters and switches of the pack.
+- The list shows this pack's backups and, below, those of other packs of the same model.
+- Select a backup to see what differs from the BMS now. Pack-dependent values such as current limits are not preselected, locked values are never restored.
+- **Restore …** needs change mode and runs the same checks as writing. A backup from another firmware needs a separate confirmation.
+- You can add a note, delete a backup or import backup files. **Show in Finder** shows the file, for example to copy it to another device. The last 50 backups per pack are kept.
+
+Backups are JSON files. Open their folder with Battery › Show Backups in Finder.
 
 ## Compare and sync packs
 
@@ -81,7 +92,7 @@ Backups are JSON files. Open their folder with Battery › Show Backups in Finde
 
 1. Under **Preselect values from**, choose the pack that sets the default.
 2. Choose per row which value to use, or skip it.
-3. Choose **Review changes**, check each pack and write. Packs are written one at a time, each with a backup. The process stops at the first error, so packs may still differ afterwards.
+3. Choose **Review changes**, check each pack and write. Packs are written one at a time, and the review offers to back up each pack first. The process stops at the first error, so packs may still differ afterwards.
 
 Rated capacity, SOC set value, cell count, model name and locked switches are never synced. Current limits and compensation depend on the pack, so they are skipped unless you choose them. Different models or firmware need a separate confirmation.
 

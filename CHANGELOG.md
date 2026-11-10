@@ -1,5 +1,12 @@
 # Changelog
 
+## Mac 0.1.3
+
+- Backups: save them by hand, compare one with the BMS and restore chosen values, also from another pack of the same model
+- Delete, note and import backups, show their files in Finder; the last 50 per pack are kept
+- No automatic backup before writing anymore: every review shows the last backup and offers to back up now
+- The iPhone and Android versions get the same with their next release
+
 ## Mac 0.1.2
 
 - Dashboard and cells on one overview page per pack, with tabs for overview, parameters and switches

@@ -13,7 +13,7 @@ The app connects directly to your battery management system (BMS) over Bluetooth
 - Bluetooth IDs and the names you gave your packs
 - Your settings, such as appearance and hidden rows
 - If you set one: a protected form of your change mode password, not the password itself
-- Backups of BMS parameters, made before each write
+- Backups of BMS parameters. From Mac 0.1.3 on, only the ones you make yourself; older versions make one before each write
 
 Your device's own backups may include this data, for example iCloud or Time Machine. Deleting the app on iPhone, iPad or Android removes its data, unless a backup still holds it. On a Mac, the data stays in your user folder after you delete the app.
 
@@ -46,7 +46,7 @@ Die App verbindet sich per Bluetooth direkt mit deinem Batteriemanagementsystem 
 - Bluetooth-Kennungen und die Namen, die du deinen Packs gibst
 - Deine Einstellungen, zum Beispiel Erscheinungsbild und ausgeblendete Zeilen
 - Falls gesetzt: eine geschützte Form deines Passworts für den Änderungsmodus, nicht das Passwort selbst
-- Backups der BMS-Parameter, die vor jedem Schreiben entstehen
+- Backups der BMS-Parameter. Ab Mac 0.1.3 nur die, die du selbst anlegst; ältere Versionen legen vor jedem Schreiben eines an
 
 Backups deines Geräts können diese Daten enthalten, zum Beispiel iCloud oder Time Machine. Beim Löschen der App auf iPhone, iPad oder Android werden ihre Daten entfernt, außer sie stecken noch in einem Backup. Auf dem Mac bleiben die Daten nach dem Löschen der App in deinem Benutzerordner.
 

@@ -67,11 +67,22 @@ Ohne Änderungsmodus zeigt die App nur an.
 1. **Parameter** oder **Schalter** öffnen und **Ändern** wählen. Beim ersten Mal bestätigst du einen Sicherheitshinweis. Hast du ein Passwort gesetzt, fragt die App danach.
 2. Werte bearbeiten. Geänderte Felder sind markiert.
 3. **Änderungen prüfen** wählen. Die App zeigt alte und neue Werte sowie Werte, die das BMS ablehnen würde. Das Abschalten einer Schutzfunktion braucht eine eigene Bestätigung.
-4. **Auf BMS schreiben** wählen. Die App liest die aktuellen Werte, legt ein Backup an, schreibt und vergleicht beim Zurücklesen.
+4. Wenn du zurück können willst, vorher sichern: Der Prüfdialog zeigt das letzte Backup und bietet **Jetzt sichern** an.
+5. **Auf BMS schreiben** wählen. Die App liest die aktuellen Werte, schreibt und vergleicht beim Zurücklesen.
 
 Manche Einstellungen sind gesperrt, weil eine Änderung die Verbindung kappen oder Hardware auslösen könnte: Zellenanzahl, SOC-Setzwert, Sekundärauslösung, LCD, Bluetooth, Adressvergabe und externe Abfrage.
 
-Backups sind JSON-Dateien. Ihren Ordner öffnest du über Batterie › Backups im Finder zeigen. Wiederherstellen kann die App sie noch nicht.
+## Backups
+
+Die App legt Backups nur an, wenn du es willst. **Backups …** öffnest du mit dem Uhr-Knopf auf einer Pack-Seite oder über Batterie › Backups … (⇧⌘B).
+
+- **Jetzt sichern** speichert alle Parameter und Schalter des Packs.
+- Die Liste zeigt die Backups dieses Packs und darunter die anderer Packs mit gleichem Modell.
+- Wählst du ein Backup, siehst du, was vom aktuellen Stand im BMS abweicht. Packabhängige Werte wie Stromgrenzen sind nicht vorausgewählt, gesperrte Werte werden nie zurückgespielt.
+- **Wiederherstellen …** braucht den Änderungsmodus und prüft wie beim Schreiben. Ein Backup mit anderer Firmware braucht eine eigene Bestätigung.
+- Du kannst eine Notiz ergänzen, ein Backup löschen oder Backup-Dateien importieren. **Im Finder zeigen** zeigt die Datei, zum Beispiel um sie auf ein anderes Gerät zu kopieren. Pro Pack bleiben die letzten 50 Backups.
+
+Backups sind JSON-Dateien. Ihren Ordner öffnest du über Batterie › Backups im Finder zeigen.
 
 ## Packs abgleichen
 
@@ -81,7 +92,7 @@ Backups sind JSON-Dateien. Ihren Ordner öffnest du über Batterie › Backups i
 
 1. Unter **Werte vorwählen von** das Pack wählen, das die Vorauswahl bestimmt.
 2. Je Zeile den gewünschten Wert wählen oder auslassen.
-3. **Änderungen prüfen** wählen, jedes Pack kontrollieren und schreiben. Die Packs werden nacheinander geschrieben, jeweils mit Backup. Beim ersten Fehler stoppt der Vorgang, die Packs können sich danach also weiter unterscheiden.
+3. **Änderungen prüfen** wählen, jedes Pack kontrollieren und schreiben. Die Packs werden nacheinander geschrieben, der Prüfdialog bietet für jedes Pack vorher ein Backup an. Beim ersten Fehler stoppt der Vorgang, die Packs können sich danach also weiter unterscheiden.
 
 Nennkapazität, SOC-Setzwert, Zellenanzahl, Modellname und gesperrte Schalter werden nie abgeglichen. Stromgrenzen und Kompensation hängen vom Pack ab und werden nur übernommen, wenn du sie wählst. Unterschiedliche Modelle oder Firmware brauchen eine eigene Bestätigung.
 

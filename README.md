@@ -48,7 +48,8 @@ It's also a learning project. I've worked as a software developer and architect 
 - See every cell voltage, with the highest and lowest cell marked
 - Read all parameters and switches and hide the ones you don't need
 - Print them or save them as a PDF (Mac and iPhone)
-- Change settings in a protected change mode: checks against the firmware's rules, a backup first, and a read-back afterwards
+- Change settings in a protected change mode: checks against the firmware's rules and a read-back afterwards
+- Save backups by hand, compare them with the BMS and restore chosen values (Mac from 0.1.3, iPhone and Android with their next version)
 - Compare two or more packs and apply chosen values to them
 - See warnings and protection messages from the BMS by name
 - Optional password before change mode
@@ -69,7 +70,7 @@ It's also a learning project. I've worked as a software developer and architect 
 
 | Platform | Get it | Guide |
 |---|---|---|
-| Mac | [`.dmg` in Releases](../../releases/tag/mac-0.1.2) | [English](docs/mac/UserGuide.md) · [Deutsch](docs/mac/Anleitung.md) |
+| Mac | [`.dmg` in Releases](../../releases/tag/mac-0.1.3) | [English](docs/mac/UserGuide.md) · [Deutsch](docs/mac/Anleitung.md) |
 | Android | [`.apk` in Releases](../../releases/tag/android-0.2.2) | [English](docs/android/UserGuide.md) · [Deutsch](docs/android/Anleitung.md) |
 | iPhone | Not available yet | [English](docs/ios/UserGuide.md) · [Deutsch](docs/ios/Anleitung.md) |
 | Windows | Planned | |
@@ -125,7 +126,7 @@ The app only displays values until you activate change mode.
 - **Only two warnings are verified on a device:** ambient temperature high and discharge temperature high. The other alarm names come from the protocol definition of another tool. If in doubt, check with the manufacturer's software.
 - **"No alarm bits set" doesn't mean that everything is fine.** The BMS only reports a warning if its switch is on, and some warnings depend on the direction of the current.
 - Live values are shown only while the app runs. There's no history yet.
-- The app can save backups, but it can't restore them yet.
+- Backups are made only when you choose to. Back up before changing values: the review offers it, and without a backup the old values can't be restored.
 
 ## Feedback
 
@@ -169,7 +170,8 @@ Es ist auch ein Lernprojekt. Ich arbeite seit mehr als 30 Jahren als Softwareent
 - Jede Zellspannung sehen, die höchste und die niedrigste Zelle sind markiert
 - Alle Parameter und Schalter lesen und ausblenden, was du nicht brauchst
 - Sie drucken oder als PDF sichern (Mac und iPhone)
-- Einstellungen im geschützten Änderungsmodus ändern: Prüfung gegen die Regeln der Firmware, vorher ein Backup, danach Zurücklesen
+- Einstellungen im geschützten Änderungsmodus ändern: Prüfung gegen die Regeln der Firmware, danach Zurücklesen
+- Backups von Hand anlegen, mit dem BMS vergleichen und gewählte Werte zurückspielen (Mac ab 0.1.3, iPhone und Android mit ihrer nächsten Version)
 - Zwei oder mehr Packs vergleichen und gewählte Werte übernehmen
 - Warnungen und Schutzmeldungen des BMS mit Namen sehen
 - Optionales Passwort vor dem Änderungsmodus
@@ -190,7 +192,7 @@ Es ist auch ein Lernprojekt. Ich arbeite seit mehr als 30 Jahren als Softwareent
 
 | Plattform | Bezugsquelle | Anleitung |
 |---|---|---|
-| Mac | [`.dmg` unter Releases](../../releases/tag/mac-0.1.2) | [Deutsch](docs/mac/Anleitung.md) · [English](docs/mac/UserGuide.md) |
+| Mac | [`.dmg` unter Releases](../../releases/tag/mac-0.1.3) | [Deutsch](docs/mac/Anleitung.md) · [English](docs/mac/UserGuide.md) |
 | Android | [`.apk` unter Releases](../../releases/tag/android-0.2.2) | [Deutsch](docs/android/Anleitung.md) · [English](docs/android/UserGuide.md) |
 | iPhone | Noch nicht verfügbar | [Deutsch](docs/ios/Anleitung.md) · [English](docs/ios/UserGuide.md) |
 | Windows | Geplant | |
@@ -212,7 +214,7 @@ Bilder aller Seiten findest du weiter oben unter [Screenshots](#screenshots).
 - **Nur zwei Warnungen sind am Gerät bestätigt:** Umgebungstemperatur hoch und Entladetemperatur hoch. Die übrigen Alarmnamen stammen aus der Protokolldefinition eines anderen Werkzeugs. Prüfe sie im Zweifel mit der Software des Herstellers.
 - **„Keine Alarmbits gesetzt“ heißt nicht, dass alles in Ordnung ist.** Das BMS meldet eine Warnung nur, wenn ihr Schalter eingeschaltet ist, und manche Warnungen hängen von der Stromrichtung ab.
 - Live-Werte erscheinen nur, solange die App läuft. Einen Verlauf gibt es noch nicht.
-- Die App kann Backups anlegen, aber noch nicht wiederherstellen.
+- Backups entstehen nur, wenn du sie anlegst. Sichere vor dem Ändern: Der Prüfdialog bietet es an, und ohne Backup lassen sich die alten Werte nicht zurückholen.
 
 ## Rückmeldungen
 
