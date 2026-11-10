@@ -6,7 +6,7 @@
 
 <p align="center"><a href="#deutsche-version">Deutsche Version weiter unten</a></p>
 
-Monitor and configure **Seplos BMS 10E** battery packs over Bluetooth, on **Android, iPhone and Mac**. The iPhone app isn't available for download yet. A Windows version is planned.
+Monitor and configure **Seplos BMS V2 (10E)** battery packs over Bluetooth, on **Android, iPhone and Mac**. The iPhone app isn't available for download yet. A Windows version is planned.
 
 This repository is the home of the project: documentation, downloads, bug reports and ideas. The app is free to use. Its source code isn't public.
 
@@ -36,7 +36,7 @@ I built PackShepherd for four practical reasons:
 
 - The manufacturer's monitor software is cumbersome to use, especially with batteries made of several packs.
 - Seplos doesn't offer a native Mac version.
-- I couldn't find an iOS app that satisfied me.
+- I couldn't find an iOS or Android app that satisfied me.
 - Keeping parameters and switches in sync across several packs was tedious.
 
 It's also a learning project. I've worked as a software developer and architect for more than 30 years, mostly on enterprise software, but had no experience developing apps for iOS and Android. PackShepherd was my way to learn vibe coding and to test what Claude can do. Claude wrote much of the code.
