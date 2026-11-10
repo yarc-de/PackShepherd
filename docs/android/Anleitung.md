@@ -66,14 +66,24 @@ Ohne Änderungsmodus zeigt die App nur an.
 
 1. Ein Pack öffnen und **Ändern** wählen. Beim ersten Mal bestätigst du einen Sicherheitshinweis. Hast du ein Passwort gesetzt, fragt die App danach.
 2. Unter **Parameter** oder **Schalter** Werte bearbeiten. Geänderte Felder sind markiert.
-3. **Änderungen prüfen** wählen. Die App zeigt alte und neue Werte sowie Werte, die das BMS ablehnen würde. Das Abschalten einer Schutzfunktion braucht eine eigene Bestätigung.
-4. **Auf BMS schreiben** wählen. Die App liest die aktuellen Werte, legt ein Backup an, schreibt und vergleicht beim Zurücklesen.
+3. **Änderungen prüfen** wählen. Die App zeigt alte und neue Werte sowie Werte, die das BMS ablehnen würde. Das Abschalten einer Schutzfunktion braucht eine eigene Bestätigung. Der Prüfdialog zeigt auch dein letztes Backup und bietet **Jetzt sichern** an.
+4. **Auf BMS schreiben** wählen. Die App liest die aktuellen Werte, schreibt und vergleicht beim Zurücklesen.
 
 Vor der ersten echten Änderung kannst du **Unverändert schreiben (Verbindungstest)** nutzen. Das schreibt dieselben Werte zurück.
 
 Manche Einstellungen sind gesperrt, weil eine Änderung die Verbindung kappen oder Hardware auslösen könnte.
 
-Backups bleiben im privaten Speicher der App. In dieser Version kannst du sie weder öffnen noch wiederherstellen, und beim Deinstallieren werden sie gelöscht.
+## Backups
+
+Die App legt Backups nur an, wenn du es willst. Du öffnest sie mit dem Uhr-Knopf auf einer Pack-Seite.
+
+- **Jetzt sichern** speichert alle Parameter und Schalter des Packs.
+- Die Liste zeigt die Backups dieses Packs und darunter die anderer Packs mit gleichem Modell.
+- Tippst du ein Backup an, siehst du, was vom aktuellen Stand im BMS abweicht. Packabhängige Werte wie Stromgrenzen sind nicht vorausgewählt, gesperrte Werte werden nie zurückgespielt.
+- **Wiederherstellen …** braucht den Änderungsmodus und prüft wie beim Schreiben. Ein Backup mit anderer Firmware braucht eine eigene Bestätigung.
+- Du kannst eine Notiz ergänzen, ein Backup löschen sowie Backup-Dateien exportieren und importieren, zum Beispiel um sie auf ein anderes Gerät zu bringen. Pro Pack bleiben die letzten 50 Backups.
+
+Backups bleiben im privaten Speicher der App. Beim Deinstallieren werden sie gelöscht, exportiere also die, die du behalten willst.
 
 ## Packs abgleichen
 
@@ -83,7 +93,7 @@ Backups bleiben im privaten Speicher der App. In dieser Version kannst du sie we
 
 1. Unter **Werte vorwählen von** das Pack wählen, das die Vorauswahl bestimmt.
 2. Je Zeile den gewünschten Wert wählen oder auslassen.
-3. **Änderungen prüfen** wählen, jedes Pack kontrollieren und schreiben. Die Packs werden nacheinander geschrieben, jeweils mit Backup. Beim ersten Fehler stoppt der Vorgang, die Packs können sich danach also weiter unterscheiden.
+3. **Änderungen prüfen** wählen, jedes Pack kontrollieren und schreiben. Die Packs werden nacheinander geschrieben, und der Prüfdialog bietet an, jedes Pack vorher zu sichern. Beim ersten Fehler stoppt der Vorgang, die Packs können sich danach also weiter unterscheiden.
 
 Alle Packs müssen verbunden sein. Stromgrenzen und Kompensation hängen vom Pack ab und werden nur übernommen, wenn du sie wählst. Unterschiedliche Modelle oder Firmware brauchen eine eigene Bestätigung.
 

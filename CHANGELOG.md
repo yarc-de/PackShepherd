@@ -1,5 +1,14 @@
 # Changelog
 
+## Android 0.3.0
+
+- Backups: save them by hand, compare one with the BMS and restore chosen values, also from another pack of the same model
+- Delete, note, export and import backups; the last 50 per pack are kept
+- No automatic backup before writing anymore: every review shows the last backup and offers to back up now
+- Model and firmware in the pack list and on the overview
+- Dashboard with model, lowest and highest cell with their numbers
+- New app icon
+
 ## Mac 0.1.3
 
 - Backups: save them by hand, compare one with the BMS and restore chosen values, also from another pack of the same model

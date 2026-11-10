@@ -66,14 +66,24 @@ The app only displays values until you activate change mode.
 
 1. Open a pack and choose **Change**. The first time, you confirm a safety notice. If you set a password, the app asks for it.
 2. Edit the values on **Parameters** or **Switches**. Changed fields are marked.
-3. Choose **Review changes**. The app lists old and new values, and shows values the BMS would reject. Turning off a protection function needs a separate confirmation.
-4. Choose **Write to BMS**. The app reads the current values, saves a backup, writes, and reads back to compare.
+3. Choose **Review changes**. The app lists old and new values, and shows values the BMS would reject. Turning off a protection function needs a separate confirmation. The review also shows your last backup and offers **Back up now**.
+4. Choose **Write to BMS**. The app reads the current values, writes, and reads back to compare.
 
 Before the first real change, you can use **Write unchanged (connection test)**. It writes the same values back.
 
 Some settings are locked because changing them could cut the connection or trip hardware.
 
-Backups stay in the app's private storage. You can't open or restore them in this version, and uninstalling the app deletes them.
+## Backups
+
+The app makes backups only when you choose to. Open them with the clock button on a pack page.
+
+- **Back up now** saves all parameters and switches of the pack.
+- The list shows this pack's backups and, below, those of other packs of the same model.
+- Tap a backup to see what differs from the BMS now. Pack-dependent values such as current limits are not preselected, locked values are never restored.
+- **Restore …** needs change mode and runs the same checks as writing. A backup from another firmware needs a separate confirmation.
+- You can add a note, delete a backup, or export and import backup files, for example to move them to another device. The last 50 backups per pack are kept.
+
+Backups stay in the app's private storage. Uninstalling the app deletes them, so export the ones you want to keep.
 
 ## Compare and sync packs
 
@@ -83,7 +93,7 @@ Backups stay in the app's private storage. You can't open or restore them in thi
 
 1. Under **Preselect values from**, choose the pack that sets the default.
 2. Choose per row which value to use, or skip it.
-3. Choose **Review changes**, check each pack and write. Packs are written one at a time, each with a backup. The process stops at the first error, so packs may still differ afterwards.
+3. Choose **Review changes**, check each pack and write. Packs are written one at a time, and the review offers to back up each pack first. The process stops at the first error, so packs may still differ afterwards.
 
 All packs must be connected. Current limits and compensation depend on the pack, so they are skipped unless you choose them. Different models or firmware need a separate confirmation.
 

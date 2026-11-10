@@ -49,7 +49,7 @@ It's also a learning project. I've worked as a software developer and architect 
 - Read all parameters and switches and hide the ones you don't need
 - Print them or save them as a PDF (Mac and iPhone)
 - Change settings in a protected change mode: checks against the firmware's rules and a read-back afterwards
-- Save backups by hand, compare them with the BMS and restore chosen values (Mac from 0.1.3, iPhone and Android with their next version)
+- Save backups by hand, compare them with the BMS and restore chosen values (Mac from 0.1.3, Android from 0.3.0, iPhone with its next version)
 - Compare two or more packs and apply chosen values to them
 - See warnings and protection messages from the BMS by name
 - Optional password before change mode
@@ -71,7 +71,7 @@ It's also a learning project. I've worked as a software developer and architect 
 | Platform | Get it | Guide |
 |---|---|---|
 | Mac | [`.dmg` in Releases](../../releases/tag/mac-0.1.3) | [English](docs/mac/UserGuide.md) · [Deutsch](docs/mac/Anleitung.md) |
-| Android | [`.apk` in Releases](../../releases/tag/android-0.2.2) | [English](docs/android/UserGuide.md) · [Deutsch](docs/android/Anleitung.md) |
+| Android | [`.apk` in Releases](../../releases/tag/android-0.3.0) | [English](docs/android/UserGuide.md) · [Deutsch](docs/android/Anleitung.md) |
 | iPhone | Not available yet | [English](docs/ios/UserGuide.md) · [Deutsch](docs/ios/Anleitung.md) |
 | Windows | Planned | |
 
@@ -171,7 +171,7 @@ Es ist auch ein Lernprojekt. Ich arbeite seit mehr als 30 Jahren als Softwareent
 - Alle Parameter und Schalter lesen und ausblenden, was du nicht brauchst
 - Sie drucken oder als PDF sichern (Mac und iPhone)
 - Einstellungen im geschützten Änderungsmodus ändern: Prüfung gegen die Regeln der Firmware, danach Zurücklesen
-- Backups von Hand anlegen, mit dem BMS vergleichen und gewählte Werte zurückspielen (Mac ab 0.1.3, iPhone und Android mit ihrer nächsten Version)
+- Backups von Hand anlegen, mit dem BMS vergleichen und gewählte Werte zurückspielen (Mac ab 0.1.3, Android ab 0.3.0, iPhone mit seiner nächsten Version)
 - Zwei oder mehr Packs vergleichen und gewählte Werte übernehmen
 - Warnungen und Schutzmeldungen des BMS mit Namen sehen
 - Optionales Passwort vor dem Änderungsmodus
@@ -193,7 +193,7 @@ Es ist auch ein Lernprojekt. Ich arbeite seit mehr als 30 Jahren als Softwareent
 | Plattform | Bezugsquelle | Anleitung |
 |---|---|---|
 | Mac | [`.dmg` unter Releases](../../releases/tag/mac-0.1.3) | [Deutsch](docs/mac/Anleitung.md) · [English](docs/mac/UserGuide.md) |
-| Android | [`.apk` unter Releases](../../releases/tag/android-0.2.2) | [Deutsch](docs/android/Anleitung.md) · [English](docs/android/UserGuide.md) |
+| Android | [`.apk` unter Releases](../../releases/tag/android-0.3.0) | [Deutsch](docs/android/Anleitung.md) · [English](docs/android/UserGuide.md) |
 | iPhone | Noch nicht verfügbar | [Deutsch](docs/ios/Anleitung.md) · [English](docs/ios/UserGuide.md) |
 | Windows | Geplant | |
 
