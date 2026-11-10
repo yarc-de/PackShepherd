@@ -40,7 +40,7 @@ Reading the gauge:
 
 ![Dashboard](../images/android/dashboard.png)
 
-- **Dashboard:** the gauge, messages from the BMS, and key values.
+- **Dashboard:** the gauge, messages from the BMS, and key values: model and firmware, voltage, capacity, cycles, the lowest and highest cell with their numbers, drift and temperature.
 - **Cells:** one column per cell, with the highest and lowest cell marked.
 - **Parameters** and **Switches:** all values from the BMS. Tap the eye to hide a row. Values that differ from the factory value are bold.
 
@@ -76,6 +76,10 @@ Some settings are locked because changing them could cut the connection or trip 
 ## Backups
 
 The app makes backups only when you choose to. Open them with the clock button on a pack page.
+
+| Backups | Compare and restore |
+|---|---|
+| ![Backups](../images/android/backups.png) | ![Backup](../images/android/backup.png) |
 
 - **Back up now** saves all parameters and switches of the pack.
 - The list shows this pack's backups and, below, those of other packs of the same model.

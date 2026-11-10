@@ -40,7 +40,7 @@ So liest du das Gauge:
 
 ![Dashboard](../images/android/dashboard.png)
 
-- **Dashboard:** Gauge, Meldungen des BMS und wichtige Werte.
+- **Dashboard:** Gauge, Meldungen des BMS und wichtige Werte: Modell und Firmware, Spannung, Kapazität, Zyklen, niedrigste und höchste Zelle mit ihren Nummern, Drift und Temperatur.
 - **Zellen:** je Zelle eine Säule, höchste und niedrigste Zelle sind markiert.
 - **Parameter** und **Schalter:** alle Werte aus dem BMS. Über das Auge blendest du eine Zeile aus. Werte, die vom Werkswert abweichen, sind fett.
 
@@ -76,6 +76,10 @@ Manche Einstellungen sind gesperrt, weil eine Änderung die Verbindung kappen od
 ## Backups
 
 Die App legt Backups nur an, wenn du es willst. Du öffnest sie mit dem Uhr-Knopf auf einer Pack-Seite.
+
+| Backups | Vergleichen und wiederherstellen |
+|---|---|
+| ![Backups](../images/android/backups.png) | ![Backup](../images/android/backup.png) |
 
 - **Jetzt sichern** speichert alle Parameter und Schalter des Packs.
 - Die Liste zeigt die Backups dieses Packs und darunter die anderer Packs mit gleichem Modell.

@@ -89,17 +89,17 @@ The app only displays values until you activate change mode.
 
 ### Mac
 
-| Dashboard | Cells |
+| Pack overview | All Batteries |
 |---|---|
-| ![Dashboard](docs/images/dashboard.png) | ![Cells](docs/images/cells.png) |
+| ![Pack overview](docs/images/dashboard.png) | ![All Batteries](docs/images/overview.png) |
 
 | Parameters | Switches |
 |---|---|
 | ![Parameters](docs/images/parameters.png) | ![Switches](docs/images/switches.png) |
 
-**Comparing packs**
-
-![Sync](docs/images/sync.png)
+| Sync | Backups |
+|---|---|
+| ![Sync](docs/images/sync.png) | ![Backups](docs/images/backups.png) |
 
 ### Android
 
@@ -111,6 +111,10 @@ The app only displays values until you activate change mode.
 |---|---|---|
 | ![Parameters](docs/images/android/parameters.png) | ![Switches](docs/images/android/switches.png) | ![Sync](docs/images/android/sync.png) |
 
+| Backups | Compare and restore | |
+|---|---|---|
+| ![Backups](docs/images/android/backups.png) | ![Backup](docs/images/android/backup.png) | |
+
 ### iPhone
 
 | Pack list | Dashboard | Cells |
@@ -120,6 +124,10 @@ The app only displays values until you activate change mode.
 | Parameters | Switches | Sync |
 |---|---|---|
 | ![Parameters](docs/images/ios/parameters.png) | ![Switches](docs/images/ios/switches.png) | ![Sync](docs/images/ios/sync.png) |
+
+| Backups | Compare and restore | |
+|---|---|---|
+| ![Backups](docs/images/ios/backups.png) | ![Backup](docs/images/ios/backup.png) | |
 
 ## Safety and known limits
 

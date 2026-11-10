@@ -37,12 +37,10 @@ Die Ringfarbe zeigt nur den Ladezustand. Alarme erscheinen getrennt als Text.
 
 ## Pack-Seiten
 
-![Dashboard](../images/dashboard.png)
+![Übersicht eines Packs](../images/dashboard.png)
 
 - **Übersicht:** Meldungen des BMS, ein kleines Gauge und die wichtigen Werte, darunter Modell, Firmware sowie niedrigste und höchste Zelle. Darunter je Zelle eine Säule, höchste und niedrigste Zelle sind markiert.
 - **Parameter** und **Schalter:** alle Werte aus dem BMS. Über das Auge blendest du eine Zeile aus.
-
-![Zellen](../images/cells.png)
 
 ![Parameter](../images/parameters.png)
 
@@ -75,6 +73,8 @@ Manche Einstellungen sind gesperrt, weil eine Änderung die Verbindung kappen od
 ## Backups
 
 Die App legt Backups nur an, wenn du es willst. **Backups …** öffnest du mit dem Uhr-Knopf auf einer Pack-Seite oder über Batterie › Backups … (⇧⌘B).
+
+![Backups](../images/backups.png)
 
 - **Jetzt sichern** speichert alle Parameter und Schalter des Packs.
 - Die Liste zeigt die Backups dieses Packs und darunter die anderer Packs mit gleichem Modell.

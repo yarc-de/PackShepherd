@@ -37,12 +37,10 @@ The ring color shows only the state of charge. Alarms appear separately as text.
 
 ## Pack pages
 
-![Dashboard](../images/dashboard.png)
+![Overview page of a pack](../images/dashboard.png)
 
 - **Overview:** messages from the BMS, a small gauge and the key values, including model, firmware and the lowest and highest cell. Below them, one column per cell, with the highest and lowest cell marked.
 - **Parameters** and **Switches:** all values from the BMS. Click the eye to hide a row.
-
-![Cells](../images/cells.png)
 
 ![Parameters](../images/parameters.png)
 
@@ -75,6 +73,8 @@ Some settings are locked because changing them could cut the connection or trip 
 ## Backups
 
 The app makes backups only when you choose to. Open **Backups …** with the clock button on a pack page or with Battery › Backups … (⇧⌘B).
+
+![Backups](../images/backups.png)
 
 - **Back Up Now** saves all parameters and switches of the pack.
 - The list shows this pack's backups and, below, those of other packs of the same model.
