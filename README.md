@@ -12,6 +12,8 @@ This repository is the home of the project: documentation, downloads, bug report
 
 > **Warning:** PackShepherd can change the protection settings of a live battery. Wrong settings can damage the battery or become dangerous. Use it at your own risk.
 
+> **Testers wanted:** I'm looking for Android users to join the closed test on Google Play. See [Google Play test](#google-play-test).
+
 | Android | iPhone | Mac |
 |---|---|---|
 | ![Overview on Android](docs/images/android/overview.png) | ![Overview on iPhone](docs/images/ios/overview.png) | ![Overview on Mac](docs/images/overview.png) |
@@ -75,7 +77,21 @@ It's also a learning project. I've worked as a software developer and architect 
 | iPhone | Not available yet | [English](docs/ios/UserGuide.md) · [Deutsch](docs/ios/Anleitung.md) |
 | Windows | Planned | |
 
-Google Play isn't available yet either. Each release lists a SHA-256 checksum, so you can check your download. Changes are listed in the [changelog](CHANGELOG.md).
+Each release lists a SHA-256 checksum, so you can check your download. Changes are listed in the [changelog](CHANGELOG.md).
+
+### Google Play test
+
+Before PackShepherd can appear on Google Play, Google requires a closed test with at least 12 testers over 14 days. I'm looking for people to take part.
+
+You need:
+
+- an Android phone with Android 12 or later and Bluetooth
+- a Google account, the one you use in the Play Store
+- ideally a Seplos BMS 10E. Without one, you can test with the demo mode.
+
+To take part, ask to join the Google group [packshepherd-testers](https://groups.google.com/g/packshepherd-testers) with that Google account. Once I've added you, you'll find the link to the test in the group. Please keep the app installed for at least 14 days and open it now and then. Report bugs as an [issue](../../issues/new/choose).
+
+If you installed the `.apk` from Releases, uninstall it first: the Play version can't replace it. This also removes the pack names and backups stored in the app.
 
 ## First steps
 
@@ -160,6 +176,8 @@ Dieses Repository ist das Zuhause des Projekts: Dokumentation, Downloads, Fehler
 
 > **Warnung:** PackShepherd kann die Schutzeinstellungen einer laufenden Batterie ändern. Falsche Einstellungen können den Akku beschädigen oder gefährlich werden. Die Nutzung erfolgt auf eigene Verantwortung.
 
+> **Tester gesucht:** Für den geschlossenen Test bei Google Play suche ich Android-Nutzer. Siehe [Test bei Google Play](#test-bei-google-play).
+
 ## Warum PackShepherd
 
 Ich habe PackShepherd aus vier praktischen Gründen gebaut:
@@ -205,7 +223,21 @@ Es ist auch ein Lernprojekt. Ich arbeite seit mehr als 30 Jahren als Softwareent
 | iPhone | Noch nicht verfügbar | [Deutsch](docs/ios/Anleitung.md) · [English](docs/ios/UserGuide.md) |
 | Windows | Geplant | |
 
-Auch bei Google Play ist die App noch nicht verfügbar. Jeder Release nennt eine SHA-256-Prüfsumme, mit der du deinen Download prüfen kannst. Änderungen stehen im [Changelog](CHANGELOG.md).
+Jeder Release nennt eine SHA-256-Prüfsumme, mit der du deinen Download prüfen kannst. Änderungen stehen im [Changelog](CHANGELOG.md).
+
+### Test bei Google Play
+
+Bevor PackShepherd bei Google Play erscheinen kann, verlangt Google einen geschlossenen Test mit mindestens 12 Testern über 14 Tage. Dafür suche ich Teilnehmer.
+
+Du brauchst:
+
+- ein Android-Telefon mit Android 12 oder neuer und Bluetooth
+- ein Google-Konto, und zwar das, mit dem du den Play Store nutzt
+- am besten ein Seplos BMS 10E. Ohne BMS kannst du mit dem Demo-Modus testen.
+
+Um mitzumachen, beantrage mit diesem Google-Konto die Aufnahme in die Google-Gruppe [packshepherd-testers](https://groups.google.com/g/packshepherd-testers). Sobald ich dich aufgenommen habe, findest du dort den Link zum Test. Lass die App bitte mindestens 14 Tage installiert und öffne sie ab und zu. Fehler meldest du als [Issue](../../issues/new/choose).
+
+Hast du die `.apk` aus den Releases installiert, deinstalliere sie vorher: Die Play-Version kann sie nicht ersetzen. Dabei gehen auch die in der App gespeicherten Pack-Namen und Backups verloren.
 
 ## Erste Schritte
 
