@@ -72,7 +72,7 @@ It's also a learning project. I've worked as a software developer and architect 
 
 | Platform | Get it | Guide |
 |---|---|---|
-| Mac | [`.dmg` in Releases](../../releases/tag/mac-0.1.3) | [English](docs/mac/UserGuide.md) · [Deutsch](docs/mac/Anleitung.md) |
+| Mac | [`.dmg` in Releases](../../releases/tag/mac-0.1.4) | [English](docs/mac/UserGuide.md) · [Deutsch](docs/mac/Anleitung.md) |
 | Android | [`.apk` in Releases](../../releases/tag/android-0.3.0) | [English](docs/android/UserGuide.md) · [Deutsch](docs/android/Anleitung.md) |
 | iPhone | Not available yet | [English](docs/ios/UserGuide.md) · [Deutsch](docs/ios/Anleitung.md) |
 | Windows | Planned | |
@@ -95,7 +95,7 @@ If you installed the `.apk` from Releases, uninstall it first: the Play version 
 
 ## First steps
 
-1. Install the app as described in the guide. macOS warns on first start, because the app isn't notarized yet. Android asks you to allow the installation.
+1. Install the app as described in the guide. The Mac app is signed and notarized by Apple. Android asks you to allow the installation.
 2. Close other apps connected to your BMS, for example the manufacturer's app.
 3. Start PackShepherd and allow Bluetooth. It finds your packs by itself. No battery at hand? Try the demo mode.
 
@@ -218,7 +218,7 @@ Es ist auch ein Lernprojekt. Ich arbeite seit mehr als 30 Jahren als Softwareent
 
 | Plattform | Bezugsquelle | Anleitung |
 |---|---|---|
-| Mac | [`.dmg` unter Releases](../../releases/tag/mac-0.1.3) | [Deutsch](docs/mac/Anleitung.md) · [English](docs/mac/UserGuide.md) |
+| Mac | [`.dmg` unter Releases](../../releases/tag/mac-0.1.4) | [Deutsch](docs/mac/Anleitung.md) · [English](docs/mac/UserGuide.md) |
 | Android | [`.apk` unter Releases](../../releases/tag/android-0.3.0) | [Deutsch](docs/android/Anleitung.md) · [English](docs/android/UserGuide.md) |
 | iPhone | Noch nicht verfügbar | [Deutsch](docs/ios/Anleitung.md) · [English](docs/ios/UserGuide.md) |
 | Windows | Geplant | |
@@ -241,7 +241,7 @@ Hast du die `.apk` aus den Releases installiert, deinstalliere sie vorher: Die P
 
 ## Erste Schritte
 
-1. Installiere die App wie in der Anleitung beschrieben. macOS warnt beim ersten Start, weil die App noch nicht notarisiert ist. Android fragt, ob du die Installation erlaubst.
+1. Installiere die App wie in der Anleitung beschrieben. Die Mac-App ist von Apple signiert und notarisiert. Android fragt, ob du die Installation erlaubst.
 2. Schließe andere Apps, die mit dem BMS verbunden sind, zum Beispiel die App des Herstellers.
 3. Starte PackShepherd und erlaube Bluetooth. Die App findet deine Packs von selbst. Keine Batterie zur Hand? Probiere den Demo-Modus aus.
 

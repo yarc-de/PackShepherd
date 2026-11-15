@@ -1,5 +1,10 @@
 # Changelog
 
+## Mac 0.1.4
+
+- Signed with a Developer ID and notarized by Apple: the app opens without the security warning
+- Backup notes are shown in the quotation marks of the app language
+
 ## Android 0.3.0
 
 - Backups: save them by hand, compare one with the BMS and restore chosen values, also from another pack of the same model

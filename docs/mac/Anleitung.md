@@ -10,9 +10,7 @@
    ```
 
 3. Die `.dmg` öffnen und PackShepherd auf „Applications“ ziehen.
-4. PackShepherd starten. macOS blockiert die App beim ersten Mal, weil sie noch nicht notarisiert ist:
-   - Systemeinstellungen › Datenschutz & Sicherheit öffnen.
-   - Nach unten zum Hinweis auf PackShepherd scrollen und **Dennoch öffnen** wählen.
+4. PackShepherd starten. Ab Version 0.1.4 ist die App von Apple signiert und notarisiert und öffnet sich wie jede andere App. macOS fragt nur einmal, ob du eine aus dem Internet geladene App öffnen willst.
 5. Bluetooth erlauben, wenn macOS fragt.
 
 ## Verbinden
