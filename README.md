@@ -66,7 +66,7 @@ It's also a learning project. I've worked as a software developer and architect 
 | **Tested with** | Firmware 16.6.1 on two packs. Other versions and models may behave differently |
 | **Mac** | macOS 14 or later. Tested on Apple silicon. An Intel version is included, but it hasn't been tested yet |
 | **Android** | Android 12 or later with Bluetooth. Tested on one phone |
-| **iPhone and iPad** | iOS and iPadOS 17 or later. Tested on one iPhone |
+| **iPhone and iPad** | iOS and iPadOS 17 or later. Tested on one iPhone and one iPad |
 
 ## Download
 
@@ -218,7 +218,7 @@ Es ist auch ein Lernprojekt. Ich arbeite seit mehr als 30 Jahren als Softwareent
 | **Getestet mit** | Firmware 16.6.1 an zwei Packs. Andere Versionen und Modelle können sich anders verhalten |
 | **Mac** | macOS 14 oder neuer. Getestet auf Apple Silicon. Eine Intel-Version ist enthalten, aber noch nicht getestet |
 | **Android** | Android 12 oder neuer mit Bluetooth. Getestet auf einem Telefon |
-| **iPhone und iPad** | iOS und iPadOS 17 oder neuer. Getestet auf einem iPhone |
+| **iPhone und iPad** | iOS und iPadOS 17 oder neuer. Getestet auf einem iPhone und einem iPad |
 
 ## Herunterladen
 
