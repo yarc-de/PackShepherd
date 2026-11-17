@@ -58,7 +58,7 @@ Das BMS meldet Alarme als Bits. PackShepherd zeigt sie mit Namen und Position. *
 
 > Falsche Einstellungen können den Akku beschädigen oder gefährlich werden. Ändere nur, was du verstehst, und möglichst im Ruhezustand des Packs.
 
-Ohne Änderungsmodus zeigt die App nur an.
+PackShepherd startet im Nur-Lesen-Modus: Die App zeigt alle Werte an, ändert aber nichts. Um Einstellungen zu ändern, schaltest du zuerst den Änderungsmodus ein:
 
 1. **Parameter** oder **Schalter** öffnen und **Ändern** wählen. Beim ersten Mal bestätigst du einen Sicherheitshinweis. Hast du ein Passwort gesetzt, fragt die App danach.
 2. Werte bearbeiten. Geänderte Felder sind markiert.
@@ -86,7 +86,7 @@ Backups sind JSON-Dateien. Ihren Ordner öffnest du über Batterie › Backups i
 
 ![Abgleich](../images/sync.png)
 
-**Abgleich** zeigt, was sich zwischen deinen Packs unterscheidet. Ohne Änderungsmodus zeigt die Seite nur an. Im Änderungsmodus:
+**Abgleich** zeigt, was sich zwischen deinen Packs unterscheidet. Um Werte von einem Pack auf die anderen zu übertragen, schaltest du zuerst den Änderungsmodus ein und gehst dann so vor:
 
 1. Unter **Werte vorwählen von** das Pack wählen, das die Vorauswahl bestimmt.
 2. Je Zeile den gewünschten Wert wählen oder auslassen.

@@ -62,7 +62,7 @@ The BMS reports alarms as bits. PackShepherd shows them by name, with their posi
 
 > Wrong settings can damage the battery or become dangerous. Only change what you understand, and preferably while the pack is at rest.
 
-The app only displays values until you activate change mode.
+PackShepherd starts in read-only mode: it shows all values but can't change anything. To change settings, first turn on change mode:
 
 1. Open a pack and choose **Change**. The first time, you confirm a safety notice. If you set a password, the app asks for it.
 2. Edit the values on **Parameters** or **Switches**. Changed fields are marked.
@@ -93,7 +93,7 @@ Backups stay in the app's private storage. Uninstalling the app deletes them, so
 
 ![Sync](../images/android/sync.png)
 
-**Sync** lists what differs between your packs. It only displays until you activate change mode. Then:
+**Sync** lists what differs between your packs. To apply values from one pack to the others, first turn on change mode, then:
 
 1. Under **Preselect values from**, choose the pack that sets the default.
 2. Choose per row which value to use, or skip it.

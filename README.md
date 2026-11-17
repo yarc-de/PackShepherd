@@ -6,7 +6,7 @@
 
 <p align="center"><a href="#deutsche-version">Deutsche Version weiter unten</a></p>
 
-Monitor and configure **Seplos BMS V2 (10E)** battery packs over Bluetooth, on **Android, iPhone and Mac**. The iPhone app isn't available for download yet. A Windows version is planned.
+Monitor and configure **Seplos BMS V2 (10E)** battery packs over Bluetooth, on **Android, iPhone, iPad and Mac**. A Windows version is planned.
 
 This repository is the home of the project: documentation, downloads, bug reports and ideas. The app is free to use. Its source code isn't public.
 
@@ -14,7 +14,7 @@ This repository is the home of the project: documentation, downloads, bug report
 
 > **Testers wanted:** I'm looking for Android users to join the closed test on Google Play. See [Google Play test](#google-play-test).
 
-| Android | iPhone | Mac |
+| Android | iPhone and iPad | Mac |
 |---|---|---|
 | ![Overview on Android](docs/images/android/overview.png) | ![Overview on iPhone](docs/images/ios/overview.png) | ![Overview on Mac](docs/images/overview.png) |
 
@@ -49,9 +49,9 @@ It's also a learning project. I've worked as a software developer and architect 
 - See SOC, voltage, current, power, temperatures, cycles and SOH at a glance
 - See every cell voltage, with the highest and lowest cell marked
 - Read all parameters and switches and hide the ones you don't need
-- Print them or save them as a PDF (Mac and iPhone)
+- Print them or save them as a PDF (Mac, iPhone and iPad)
 - Change settings in a protected change mode: checks against the firmware's rules and a read-back afterwards
-- Save backups by hand, compare them with the BMS and restore chosen values (Mac from 0.1.3, Android from 0.3.0, iPhone with its next version)
+- Save backups by hand, compare them with the BMS and restore chosen values (Mac from 0.1.3, Android and iPhone/iPad from 0.3.0)
 - Compare two or more packs and apply chosen values to them
 - See warnings and protection messages from the BMS by name
 - Optional password before change mode
@@ -66,7 +66,7 @@ It's also a learning project. I've worked as a software developer and architect 
 | **Tested with** | Firmware 16.6.1 on two packs. Other versions and models may behave differently |
 | **Mac** | macOS 14 or later. Tested on Apple silicon. An Intel version is included, but it hasn't been tested yet |
 | **Android** | Android 12 or later with Bluetooth. Tested on one phone |
-| **iPhone** | iOS 17 or later. Tested on one iPhone |
+| **iPhone and iPad** | iOS and iPadOS 17 or later. Tested on one iPhone |
 
 ## Download
 
@@ -74,7 +74,7 @@ It's also a learning project. I've worked as a software developer and architect 
 |---|---|---|
 | Mac | [`.dmg` in Releases](../../releases/tag/mac-0.1.4) | [English](docs/mac/UserGuide.md) · [Deutsch](docs/mac/Anleitung.md) |
 | Android | [`.apk` in Releases](../../releases/tag/android-0.3.0) | [English](docs/android/UserGuide.md) · [Deutsch](docs/android/Anleitung.md) |
-| iPhone | Not available yet | [English](docs/ios/UserGuide.md) · [Deutsch](docs/ios/Anleitung.md) |
+| iPhone and iPad | [App Store](https://apps.apple.com/app/id6834464024) | [English](docs/ios/UserGuide.md) · [Deutsch](docs/ios/Anleitung.md) |
 | Windows | Planned | |
 
 Each release lists a SHA-256 checksum, so you can check your download. Changes are listed in the [changelog](CHANGELOG.md).
@@ -95,11 +95,11 @@ If you installed the `.apk` from Releases, uninstall it first: the Play version 
 
 ## First steps
 
-1. Install the app as described in the guide. The Mac app is signed and notarized by Apple. Android asks you to allow the installation.
+1. Install the app as described in the guide. On iPhone and iPad you get it from the App Store. The Mac app is signed and notarized by Apple. Android asks you to allow the installation.
 2. Close other apps connected to your BMS, for example the manufacturer's app.
 3. Start PackShepherd and allow Bluetooth. It finds your packs by itself. No battery at hand? Try the demo mode.
 
-The app only displays values until you activate change mode.
+PackShepherd starts in read-only mode: it shows all values but can't change anything. To change settings, first turn on change mode, as described in the guide.
 
 ## Screenshots
 
@@ -131,7 +131,7 @@ The app only displays values until you activate change mode.
 |---|---|---|
 | ![Backups](docs/images/android/backups.png) | ![Backup](docs/images/android/backup.png) | |
 
-### iPhone
+### iPhone and iPad
 
 | Pack list | Dashboard | Cells |
 |---|---|---|
@@ -144,6 +144,12 @@ The app only displays values until you activate change mode.
 | Backups | Compare and restore | |
 |---|---|---|
 | ![Backups](docs/images/ios/backups.png) | ![Backup](docs/images/ios/backup.png) | |
+
+On the iPad the pack list stays in a sidebar:
+
+| All Batteries | Dashboard | Sync |
+|---|---|---|
+| ![All Batteries on iPad](docs/images/ipad/overview.png) | ![Dashboard on iPad](docs/images/ipad/dashboard.png) | ![Sync on iPad](docs/images/ipad/sync.png) |
 
 ## Safety and known limits
 
@@ -170,7 +176,7 @@ PackShepherd is not a Seplos product and isn't affiliated with Seplos.
 
 # Deutsche Version
 
-Überwache und konfiguriere **Seplos-BMS-10E**-Batteriepacks per Bluetooth, auf **Android, iPhone und Mac**. Die iPhone-App lässt sich noch nicht herunterladen. Eine Windows-Version ist geplant.
+Überwache und konfiguriere **Seplos-BMS-10E**-Batteriepacks per Bluetooth, auf **Android, iPhone, iPad und Mac**. Eine Windows-Version ist geplant.
 
 Dieses Repository ist das Zuhause des Projekts: Dokumentation, Downloads, Fehlermeldungen und Ideen. Die App ist kostenlos. Ihr Quellcode ist nicht öffentlich.
 
@@ -195,9 +201,9 @@ Es ist auch ein Lernprojekt. Ich arbeite seit mehr als 30 Jahren als Softwareent
 - SOC, Spannung, Strom, Leistung, Temperaturen, Zyklen und SOH auf einen Blick sehen
 - Jede Zellspannung sehen, die höchste und die niedrigste Zelle sind markiert
 - Alle Parameter und Schalter lesen und ausblenden, was du nicht brauchst
-- Sie drucken oder als PDF sichern (Mac und iPhone)
+- Sie drucken oder als PDF sichern (Mac, iPhone und iPad)
 - Einstellungen im geschützten Änderungsmodus ändern: Prüfung gegen die Regeln der Firmware, danach Zurücklesen
-- Backups von Hand anlegen, mit dem BMS vergleichen und gewählte Werte zurückspielen (Mac ab 0.1.3, Android ab 0.3.0, iPhone mit seiner nächsten Version)
+- Backups von Hand anlegen, mit dem BMS vergleichen und gewählte Werte zurückspielen (Mac ab 0.1.3, Android und iPhone/iPad ab 0.3.0)
 - Zwei oder mehr Packs vergleichen und gewählte Werte übernehmen
 - Warnungen und Schutzmeldungen des BMS mit Namen sehen
 - Optionales Passwort vor dem Änderungsmodus
@@ -212,7 +218,7 @@ Es ist auch ein Lernprojekt. Ich arbeite seit mehr als 30 Jahren als Softwareent
 | **Getestet mit** | Firmware 16.6.1 an zwei Packs. Andere Versionen und Modelle können sich anders verhalten |
 | **Mac** | macOS 14 oder neuer. Getestet auf Apple Silicon. Eine Intel-Version ist enthalten, aber noch nicht getestet |
 | **Android** | Android 12 oder neuer mit Bluetooth. Getestet auf einem Telefon |
-| **iPhone** | iOS 17 oder neuer. Getestet auf einem iPhone |
+| **iPhone und iPad** | iOS und iPadOS 17 oder neuer. Getestet auf einem iPhone |
 
 ## Herunterladen
 
@@ -220,7 +226,7 @@ Es ist auch ein Lernprojekt. Ich arbeite seit mehr als 30 Jahren als Softwareent
 |---|---|---|
 | Mac | [`.dmg` unter Releases](../../releases/tag/mac-0.1.4) | [Deutsch](docs/mac/Anleitung.md) · [English](docs/mac/UserGuide.md) |
 | Android | [`.apk` unter Releases](../../releases/tag/android-0.3.0) | [Deutsch](docs/android/Anleitung.md) · [English](docs/android/UserGuide.md) |
-| iPhone | Noch nicht verfügbar | [Deutsch](docs/ios/Anleitung.md) · [English](docs/ios/UserGuide.md) |
+| iPhone und iPad | [App Store](https://apps.apple.com/app/id6834464024) | [Deutsch](docs/ios/Anleitung.md) · [English](docs/ios/UserGuide.md) |
 | Windows | Geplant | |
 
 Jeder Release nennt eine SHA-256-Prüfsumme, mit der du deinen Download prüfen kannst. Änderungen stehen im [Changelog](CHANGELOG.md).
@@ -241,11 +247,11 @@ Hast du die `.apk` aus den Releases installiert, deinstalliere sie vorher: Die P
 
 ## Erste Schritte
 
-1. Installiere die App wie in der Anleitung beschrieben. Die Mac-App ist von Apple signiert und notarisiert. Android fragt, ob du die Installation erlaubst.
+1. Installiere die App wie in der Anleitung beschrieben. Auf iPhone und iPad bekommst du sie im App Store. Die Mac-App ist von Apple signiert und notarisiert. Android fragt, ob du die Installation erlaubst.
 2. Schließe andere Apps, die mit dem BMS verbunden sind, zum Beispiel die App des Herstellers.
 3. Starte PackShepherd und erlaube Bluetooth. Die App findet deine Packs von selbst. Keine Batterie zur Hand? Probiere den Demo-Modus aus.
 
-Ohne Änderungsmodus zeigt die App nur an.
+PackShepherd startet im Nur-Lesen-Modus: Die App zeigt alle Werte an, ändert aber nichts. Um Einstellungen zu ändern, schaltest du zuerst den Änderungsmodus ein, wie in der Anleitung beschrieben.
 
 Bilder aller Seiten findest du weiter oben unter [Screenshots](#screenshots).
 

@@ -1,8 +1,10 @@
-# PackShepherd für iPhone: Anleitung
+# PackShepherd für iPhone und iPad: Anleitung
 
 ## App bekommen
 
-Die iPhone-App ist noch nicht verfügbar. Sie kommt über TestFlight oder den App Store, diese Seite sagt dir dann Bescheid. Du brauchst iOS 17 oder neuer.
+Lade PackShepherd kostenlos im [App Store](https://apps.apple.com/app/id6834464024) auf dein iPhone oder iPad. Du brauchst iOS oder iPadOS 17 oder neuer und Bluetooth. Updates kommen ebenfalls über den App Store.
+
+Die Bilder in dieser Anleitung zeigen das iPhone. Auf dem iPad funktioniert die App genauso. Pack-Liste, **Alle Batterien** und **Abgleich** stehen dort in einer Seitenleiste links.
 
 ## Verbinden
 
@@ -50,7 +52,7 @@ Das BMS meldet Alarme als Bits. PackShepherd zeigt sie mit Namen und Position. *
 
 > Falsche Einstellungen können den Akku beschädigen oder gefährlich werden. Ändere nur, was du verstehst, und möglichst im Ruhezustand des Packs.
 
-Ohne Änderungsmodus zeigt die App nur an.
+PackShepherd startet im Nur-Lesen-Modus: Die App zeigt alle Werte an, ändert aber nichts. Um Einstellungen zu ändern, schaltest du zuerst den Änderungsmodus ein:
 
 1. Ein Pack öffnen und auf das Schloss tippen. Beim ersten Mal bestätigst du einen Sicherheitshinweis. Hast du ein Passwort gesetzt, fragt die App danach.
 2. Unter **Parameter** oder **Schalter** Werte bearbeiten. Geänderte Felder sind markiert.
@@ -81,7 +83,7 @@ Backups bleiben im privaten Speicher der App. Beim Löschen der App werden sie g
 
 ![Abgleich](../images/ios/sync.png)
 
-**Abgleich** zeigt, was sich zwischen deinen Packs unterscheidet. Ohne Änderungsmodus zeigt die Seite nur an. Im Änderungsmodus:
+**Abgleich** zeigt, was sich zwischen deinen Packs unterscheidet. Um Werte von einem Pack auf die anderen zu übertragen, schaltest du zuerst den Änderungsmodus ein und gehst dann so vor:
 
 1. Unter **Werte vorwählen von** das Pack wählen, das die Vorauswahl bestimmt.
 2. Je Zeile den gewünschten Wert wählen oder auslassen.
